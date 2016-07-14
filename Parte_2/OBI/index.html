@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="obi.php" method="get">
+        Name:<br/>
+        <input type="text" name="nome"/><br/>
+
+        Email:<br/>
+        <input type="email" name="mail"/><br/>
+
+        Data de Nascimento:<br/>
+        <input type="text" name="dataDeNascimento"><br>
+
+        Escola:<br/>
+        <input type="text" name="escola"><br>
+
+        Ano Escola<br/>
+        <input type="number" name="anoEscola"><br/>
+
+        Data da prova:<br/>
+        <input type="text" name="dataProva"><br>
+
+        Liguagem Favorita<br/>
+        <select name="liguagemFavorita">
+            <option value="Java">Java</option>
+            <option value="C/C++">C/C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="PHP">PHP</option>
+        </select><br/>
+
+        Noticias:<br/>
+        <select name="noticias">
+            <option value="sim">Sim</option>
+            <option value="não">nao</option>
+        </select><br/>
+
+        Nivel:<br/>
+        <select name="nivel">
+            <option value="1">Nivel 1</option>
+            <option value="2">Nivel 2</option>
+            <option value="Universitario">Universitario</option>
+        </select><br/><br/>
+
+        <!--<button type="button">Limpar</button>-->
+        <input type="reset" value="Apagar Campos">
+        <input type="submit" value="Confirmar">
+
+    </form>
+</body>
+</html>
