@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Parte 1</title>
+
+  </head>
+  <body>
+
+    <!--Faça uma página HTML com um formulário, contendo os seguintes itens:-->
+  <!---->
+    <!--Nome (input)-->
+    <!--Email (input)-->
+    <!--Endereço (input)-->
+    <!--Profissão (Analista de Sistemas, Desenvolvedor, Gerente de Projetos, DBA)-->
+    <!--Sexo (Masculino e Feminino)-->
+    <!--Login-->
+    <!--Senha-->
+    <!--Fale Conosco-->
+    <!--deseja receber nossas promoções?-->
+    <!--Botão de confirmação-->
+    <!--Botão de limpar formulário-->
+    <!--OBS: A ação do formulário deverá ser do tipo GET-->
+
+    <form action="formulario.php" method="get">
+        Name:<br/>
+        <input type="text" name="nome"/><br/>
+        Email:<br/>
+        <input type="email" name="mail"/><br/>
+        Endereço:<br/>
+        <input type="text" name="endereco"><br>
+        Profissão<br/>
+        <select name="profissao">
+            <option value="analistaDeSistemas">Analista de Sistemas</option>
+            <option value="desenvolvedor">Desenvolvedor</option>
+            <option value="gerenteDeProjetos">Gerente de Projetos</option>
+            <option value="dba">DBA</option>
+        </select><br/>
+        Sexo:<br/>
+        <select name="sexo">
+            <option>Masculino</option>
+            <option>Feminino</option>
+        </select><br/>
+        Login:<br/>
+        <input type="text" name="login"/><br/>
+        Senha<br/>
+        <input type="password" name="senha"><br/><br/>
+
+        <!--<button type="button">Limpar</button>-->
+        <input type="reset" value="Apagar Campos">
+        <input type="submit" value="Confirmar">
+
+    </form>
+  </body>
+</html>
